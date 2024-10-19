@@ -1,9 +1,11 @@
 const express = require('express');
 const db = require('./config/db');
 require('dotenv').config();
+const authRoutes = require('./routes/authRoutes');
 
 const app = express();
 app.use(express.json());
+app.use('/api/auth', authRoutes);
 
 app.get('/', (req, res) => {
   res.send('Welcome to the Bookstore API');
