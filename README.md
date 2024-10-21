@@ -75,7 +75,6 @@ Below are some of the key API endpoints available in the application:
 - **GET /api/books**: Retrieve a list of all books
 - **GET /api/books/:id**: Retrieve a book by its ID
 - **POST /api/books**: Add a new book
-- **PUT /api/books/:id**: Update a book by its ID
 - **DELETE /api/books/:id**: Delete a book by its ID
 
 ### Cart
